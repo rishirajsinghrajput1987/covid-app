@@ -26,21 +26,21 @@ const CovidTracker = () => {
                             <ul>
                                 <li>
                                     <div>
-                                        <small>{dataItems.lastupdatedtime}</small><br/>
+                                        <small>Last Updated: {dataItems.lastupdatedtime}</small><br/>
                                         <strong>Active </strong>
                                     </div>
                                     <span className="active-case"> {dataItems.active}</span>    
                                 </li>
                                 <li>
                                     <div>
-                                    <small>{dataItems.lastupdatedtime}</small><br/>
+                                    <small>Last Updated: {dataItems.lastupdatedtime}</small><br/>
                                     <strong>Recovered </strong>
                                     </div>
                                     <span className="recovered-case"> {dataItems.recovered}</span>    
                                 </li>
                                 <li>
                                     <div>
-                                    <small>{dataItems.lastupdatedtime}</small><br/>
+                                    <small>Last Updated: {dataItems.lastupdatedtime}</small><br/>
                                     <strong>Death </strong>
                                     </div>
                                     <span className="death-case"> {dataItems.deaths}</span>    
