@@ -8,7 +8,7 @@ const AllRouters = () => {
       <Route exact path="/">
         <CovidTracker />
       </Route>
-      <Route path="/login">
+      <Route exact path="/login">
         <Login />
       </Route>
     </Switch>
