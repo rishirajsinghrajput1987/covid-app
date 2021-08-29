@@ -3,12 +3,22 @@
     --red : red;
     --green : green;
 }
-.App {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
+
+.showResult {
+    padding: 15px;
+    background: blue;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 5px;
 }
+
+.main-wrapper h2 {
+    font-size: 24px;
+}
+
 .state-wrapper {
     width: 100%;
     border: 1px solid #ddd;
@@ -17,7 +27,7 @@
     margin-bottom: 15px;
     padding: 10px;
 }
-.state-wrapper h1 {
+.state-wrapper h2 {
     padding: 0 10px;
     margin: 0;
     font-size: 18px;

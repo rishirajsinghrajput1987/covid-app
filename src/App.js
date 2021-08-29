@@ -1,11 +1,18 @@
-import CovidTracker from './components/CovidTracker';
-import './App.css';
+import CovidTracker from "./components/CovidTracker";
+import "./App.css";
+import Header from "./components/Header";
+import AllRouters from "./Routers/AllRouters";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Covid Tracker App</h1>
-      <CovidTracker />
+    <div>
+      <Router>
+        <Header />
+        <div className="main-wrapper">
+          <AllRouters />
+        </div>
+      </Router>
     </div>
   );
 }
